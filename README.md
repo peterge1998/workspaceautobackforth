@@ -25,5 +25,5 @@ Press Enter
 `journalctl -f -o cat /usr/bin/gnome-shell`
 
 ## Todo
-- Indicator in status bar, whichs was the last active workspace
-- Add a GUI to change the shortcut
+- Indicator in status bar, number which was the last active workspace
+- Add a GUI to change the shortcut. Currently Super+G
