@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema id="org.gnome.shell.extensions.workspaceswitcher"
+    path="/org/gnome/shell/extensions/workspaceswitcher/">
+
+    <key type="as" name="my-shortcut">
+      <default><![CDATA[['<Super>s']]]></default>
+      <summary>Last Workspace</summary>
+      <description>
+        Switch back to your last active workspace
+      </description>
+    </key>
+
+  </schema>
+
+</schemalist>
