@@ -29,14 +29,6 @@ const Me = imports.misc.extensionUtils.getCurrentExtension();
 let panelButton, panelButtonText;
 
 function init () {
-  panelButton = new St.Bin({
-    style_class : "panel-button"
-  });
-  panelButtonText = new St.Label({
-    style_class : "examplePanelText",
-    text : "Hello world",
-  });
-  panelButton.set_child(panelButtonText);
   log("Starting WS: ", this.active_ws_index);
   wsm = new WS_manager();
 
@@ -98,7 +90,6 @@ function getSettings () {
 }
 
 function enable () {
-  Main.panel._rightBox.insert_child_at_index(panelButton, 1);
 }
 
 function disable () {
