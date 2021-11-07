@@ -23,3 +23,7 @@ Press Enter
 ## Logs:
 
 `journalctl -f -o cat /usr/bin/gnome-shell`
+
+## Todo
+- Indicator in status bar, whichs was the last active workspace
+- Add a GUI to change the shortcut
