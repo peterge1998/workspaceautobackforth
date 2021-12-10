@@ -26,4 +26,4 @@ Press Enter
 
 ## Todo
 - Indicator in status bar, number which was the last active workspace
-- Add a GUI to change the shortcut. Currently Super+G
+- Add a GUI to change the shortcut. Currently Super+S
