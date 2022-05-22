@@ -3,6 +3,6 @@
   "description": "Switch to workspaces auto back and forth when pressing the same combination of the current workspace",
   "uuid": "workspaceautobackforth@peterge.de",
   "shell-version": [
-    "41"
+    "42"
   ]
 }
